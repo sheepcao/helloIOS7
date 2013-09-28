@@ -41,6 +41,9 @@
 		[self.textfield resignFirstResponder];
         // Invoke the method that changes the greeting.
         self.label.text=self.textfield.text;
+        
+        
+        
 	}
 	return YES;
 }
